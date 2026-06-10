@@ -22,6 +22,34 @@ Vector Five9 is a production-grade, fully serverless cybersecurity platform that
 
 Built entirely on AWS with zero EC2 instances. Every component is event-driven and scales to zero when idle.
 
+
+About Me
+My name is Andrei Taylor.
+Before anything else, I want to make one thing clear: I am not a software developer or software engineer. I have tremendous respect for the professionals in this field, and this project has given me an even greater appreciation for the skill, dedication, patience, and expertise required to build meaningful software solutions. I would never compare my journey to the years of discipline and experience it takes to become proficient in software development.
+
+What I am is someone who is naturally curious, passionate about technology, and unafraid to tackle difficult challenges head-on.
+
+Over the course of my career, I have had the opportunity to work for several large organizations in roles including Network Manager, Network Engineer, and most recently, Data Center Operations. These positions have provided me with firsthand experience supporting critical infrastructure, troubleshooting complex environments, and ensuring operational continuity for businesses that rely on technology every day.
+
+While my primary responsibilities have centered around networking and infrastructure, I have consistently been involved in cybersecurity-related initiatives and tasks. This exposure has given me a unique perspective on the daily challenges faced by security teams. I have seen the pressure of responding to threats in real time, the overwhelming volume of alerts, and the constant need to balance security, efficiency, and limited resources.
+
+This application was born from those experiences.
+
+Throughout the years, I have repeatedly encountered situations where automation could have significantly increased productivity, improved visibility, and reduced the time required to identify and respond to critical issues. In mission-critical environments, time is one of the most valuable commodities. Every second spent searching through data, correlating information, or manually performing repetitive tasks is time that could be spent addressing the actual threat.
+
+As cyber threats continue to evolve and become more sophisticated, the demands placed on security professionals continue to grow. My passion for cybersecurity, combined with my eagerness to learn and explore the capabilities of artificial intelligence, inspired me to create a solution that helps address some of these challenges.
+
+The purpose of this application is not to replace existing security tools, platforms, or methodologies. Instead, it is designed to complement and enhance them. The goal is to provide purpose-driven automation that increases visibility into high-priority security concerns, helping organizations and individuals identify what matters most and respond more efficiently.
+
+I am particularly passionate about creating solutions that lower barriers to entry. Not every organization has access to large security teams or expensive enterprise platforms. By leveraging modern technologies such as AI, I believe it is possible to build practical tools that empower defenders, improve operational effectiveness, and strengthen security posture without requiring massive investments.
+
+Seeing this vision come to life has been incredibly rewarding. While this is only the beginning, I am excited about future enhancements, integrations, and capabilities that will continue to improve the platform and expand its value.
+
+At its core, this project represents a simple philosophy: solve real-world problems efficiently, increase visibility where it matters most, and make powerful technology more accessible to the people who need it.
+
+Technology should be practical, accessible, and empowering, this application is my contribution towards that goal.
+
+
 ---
 
 ## Key Capabilities
