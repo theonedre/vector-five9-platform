@@ -1,6 +1,6 @@
 # Vector Five9
 
-> Serverless vulnerability management platform built on AWS — purpose-built for network security operations.
+> Serverless vulnerability management platform built on AWS purpose-built for network security operations.
 
 ![Vector Five9 Dashboard](https://raw.githubusercontent.com/theonedre/vector-five9-platform/main/VF91.jpg)
 
@@ -18,7 +18,7 @@
 
 ## Overview
 
-Vector Five9 is a production-grade, fully serverless cybersecurity platform that continuously monitors the [NIST National Vulnerability Database](https://nvd.nist.gov) for CVEs matching a managed network device inventory. When a match is found, the platform scores it using CVSS v3, maps it to [MITRE ATT&CK](https://attack.mitre.org) adversary techniques, and automatically creates a prioritized incident in ServiceNow — all without human intervention.
+Vector Five9 is a production-grade, fully serverless cybersecurity platform that continuously monitors the [NIST National Vulnerability Database](https://nvd.nist.gov) for CVEs matching a managed network device inventory. When a match is found, the platform scores it using CVSS v3, maps it to [MITRE ATT&CK](https://attack.mitre.org) adversary techniques, and automatically creates a prioritized incident in ServiceNow all without human intervention.
 
 Built entirely on AWS with zero EC2 instances. Every component is event-driven and scales to zero when idle.
 
@@ -129,7 +129,7 @@ Built entirely on AWS with zero EC2 instances. Every component is event-driven a
 Each CVE match is automatically enriched with MITRE ATT&CK techniques using two methods:
 
 1. **Direct CVE lookup** via CTID Mappings Explorer API
-2. **CWE → ATT&CK mapping** — NVD weakness classifications mapped to adversary techniques (covers ~80% of CVEs)
+2. **CWE → ATT&CK mapping** NVD weakness classifications mapped to adversary techniques (covers ~80% of CVEs)
 
 Example enrichment for a CVSS 10.0 Cisco CVE:
 
@@ -138,7 +138,7 @@ CVE-2026-20182  →  T1078  Valid Accounts      (Defense Evasion)
                    T1110  Brute Force         (Credential Access)
 ```
 
-Technique cards in the dashboard link directly to detection guidance, data sources, and mitigations on attack.mitre.org — giving the responding engineer actionable intelligence alongside the patch advisory.
+Technique cards in the dashboard link directly to detection guidance, data sources, and mitigations on attack.mitre.org, giving the responding engineer actionable intelligence alongside the patch advisory.
 
 ---
 
@@ -157,7 +157,7 @@ The platform supports any network device with a CPE identifier in NVD, including
 
 ## Cost Profile
 
-Fully serverless — cost scales with usage and is near-zero when idle between hourly polls.
+Fully serverless: cost scales with usage and is near-zero when idle between hourly polls.
 
 | Component | Monthly Estimate |
 |---|---|
