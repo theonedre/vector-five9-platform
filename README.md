@@ -188,7 +188,7 @@ Fully serverless: cost scales with usage and is near-zero when idle between hour
 
 Built by **Andrei Taylor**, Founder Dynamic Nines LLC.
 
-This project was built to solve a real operational problem: manually tracking CVEs across a heterogeneous network device inventory is slow, inconsistent, and error-prone. Vector Five9 automates the entire pipeline — from CVE publication to ServiceNow incident creation — in under 60 seconds, with full MITRE ATT&CK context included in every ticket.
+This project was built to solve a real operational problem: manually tracking CVEs across a heterogeneous network device inventory is slow, inconsistent, and error-prone. Vector Five9 automates the entire pipeline, from CVE publication to ServiceNow incident creation in under 60 seconds, with full MITRE ATT&CK context included in every ticket.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Andrei%20Taylor-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/andrei-taylor/)
 
