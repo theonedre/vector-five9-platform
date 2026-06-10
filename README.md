@@ -23,8 +23,10 @@ Vector Five9 is a production-grade, fully serverless cybersecurity platform that
 Built entirely on AWS with zero EC2 instances. Every component is event-driven and scales to zero when idle.
 
 
-About Me
-My name is Andrei Taylor.
+## About Me
+
+## Andrei Taylor
+
 Before anything else, I want to make one thing clear: I am not a software developer or software engineer. I have tremendous respect for the professionals in this field, and this project has given me an even greater appreciation for the skill, dedication, patience, and expertise required to build meaningful software solutions. I would never compare my journey to the years of discipline and experience it takes to become proficient in software development.
 
 What I am is someone who is naturally curious, passionate about technology, and unafraid to tackle difficult challenges head-on.
