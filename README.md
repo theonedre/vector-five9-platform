@@ -186,7 +186,7 @@ Fully serverless — cost scales with usage and is near-zero when idle between h
 
 ## About
 
-Built by **Andrei Taylor** — Network Engineer at New Era Networks.
+Built by **Andrei Taylor**, Founder Dynamic Nines LLC.
 
 This project was built to solve a real operational problem: manually tracking CVEs across a heterogeneous network device inventory is slow, inconsistent, and error-prone. Vector Five9 automates the entire pipeline — from CVE publication to ServiceNow incident creation — in under 60 seconds, with full MITRE ATT&CK context included in every ticket.
 
@@ -195,3 +195,5 @@ This project was built to solve a real operational problem: manually tracking CV
 ---
 
 *This repository contains the project showcase only. Source code is maintained in a private repository.*
+
+
