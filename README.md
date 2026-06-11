@@ -73,28 +73,28 @@ Technology should be practical, accessible, and empowering, this application is 
 
 ```
                     ┌─────────────────────────────────────────────┐
-                    │                  AWS Cloud                   │
-                    │                                              │
+                    │                  AWS Cloud                  │
+                    │                                             │
   NIST NVD API ────►│  EventBridge (hourly)                       │
-                    │        │                                     │
-                    │        ▼                                     │
+                    │        │                                    │
+                    │        ▼                                    │
                     │  NvdPoller Lambda ────► DynamoDB (CVEs)     │
-                    │                              │               │
-                    │                       DynamoDB Streams       │
-                    │                        │          │          │
-                    │                        ▼          ▼          │
-                    │               CveMatcher    ATT&CK Enricher  │
-                    │                   │                          │
-                    │             SNS Alert                        │
-                    │                   │                          │
-                    │           TicketDispatcher ───► ServiceNow   │
-                    │                                              │
+                    │                              │              │
+                    │                       DynamoDB Streams      │
+                    │                        │          │         │
+                    │                        ▼          ▼         │
+                    │               CveMatcher    ATT&CK Enriche  │
+                    │                   │                         │
+                    │             SNS Alert                       │
+                    │                   │                         │
+                    │           TicketDispatcher ───► ServiceNow  │
+                    │                                             │
   Browser ─────────►│  CloudFront → S3 (React Dashboard)          │
-                    │        │                                     │
-                    │        ▼                                     │
-                    │  API Gateway → DeviceApi Lambda              │
-                    │                     │                        │
-                    │               DynamoDB (Devices)             │
+                    │        │                                    │
+                    │        ▼                                    │
+                    │  API Gateway → DeviceApi Lambda             │
+                    │                     │                       │
+                    │               DynamoDB (Devices)            │
                     └─────────────────────────────────────────────┘
 ```
 
